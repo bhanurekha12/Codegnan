@@ -310,6 +310,199 @@ if type(a) is str:
 else:
     print("false")'''
 
+#if-elif-else:
+
+'''a=10
+b=20
+if a<b:
+    print("less")
+elif b>a:
+    print("greater")
+else:
+    print("true")'''
+
+'''a=10
+b=20
+if a==b:
+    print("less")
+elif b>a:
+    print("greater")
+else:
+    print("true")'''
+
+'''a=10
+b=20
+if a==b:
+    print("less")
+elif b<a:
+    print("greater")
+else:
+    print("true")'''
+
+'''a=10
+b=20
+if a==b:
+    print("less")
+elif b<a:
+    print("greater")
+elif a!=b:
+    print("not equal")
+else:
+    print("true")'''
+
+
+
+#logical operator: and ,or ,not..(if_elif_else)
+'''a=22
+b=40
+if a>b and b>a:
+    print("less")
+elif a>b or b<a:
+    print("greater")
+elif a!=b:
+    print("not equal")
+else:
+    print("true")'''
+
+#membership :in , not in..(if-elif-else)
+'''a=[12,13,14,15,16]
+b=13
+if b in a:
+    print("in a")
+elif b not in a:
+    print("not in a")
+else:
+    print("true")'''
+#identifier operator:is ,is not(if-elif-else)
+'''a=12
+if type(a) is int:
+    print("is an int")
+elif type(a) is not int:
+    print("is not int")
+else:
+    print("false")'''
+
+#multiple if:
+'''a=3
+b=5
+if a<b:
+    print("less")
+if b>a:
+    print("greater")'''
+
+'''a=7
+b=10
+if a==b:
+    print("less")
+if b>a:
+    print("greater")
+if a!=b:
+    print("true")'''
+
+'''a=int(input("a value"))
+b=int(input("b value"))
+if a<b:
+    print("less")
+if b<a:
+    print("greater")'''
+
+'''#logical :and , or,not
+a=15
+b=18
+if a<b and b>a:
+    print("less")
+if a<b or b<a:
+    print("less than")
+if a!=b:
+    print("not equal")'''
+
+'''#identifier:is,is not
+b=2.6
+if b is int:
+    print("true")
+if b is not int:
+    print("false")'''
+
+'''#membership : in,not in
+a=[10,20,30,40,50]
+b =44
+if b in a:
+    print("in a")
+if b not in a:
+    print("not in a")'''
+#nested-if:
+'''a=6
+b=8
+if a<b:
+    print("less")
+    if a!=b:
+        print("not equal")'''
+
+'''a=6
+b=8
+if a==b:
+    print("less")
+    if a!=b:
+        print("not equal")'''
+
+'''a=12
+b=20
+if a<b:
+    print("less")
+    if a==b:
+        print("not equal")'''
+
+'''a=6
+b=8
+if a<b:
+    print("less")
+    if a==b:
+        print("not equal")
+    else:
+        print("true")'''
+
+'''a=10
+b=20
+if a<b:
+    print("less")
+    if a==b:
+        print("not equal")
+    elif b<a:
+        print("greater")
+    else:
+        print("true")'''
+
+'''a=6
+b=8
+if a>b:
+    print("less")
+    if a!=b:
+        print("not equal")
+else:
+    print("false")'''
+
+
+'''a=6
+b=8
+if a==b:
+    print("less")
+    if a>b:
+        print("not equal")
+    else:
+        print("true")
+else:
+    print("false")'''
+
+
+
+
+
+
+
+
+    
+
+
 
 
 
