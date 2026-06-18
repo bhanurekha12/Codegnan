@@ -106,8 +106,6 @@ print(a)
 print(b)
 print(c) '''    #error becasue when 3 variables are given  only 3 values should be passed.
 
-          
-
 '''a,b,c=3,6,9
 print(a)
 print(b)
@@ -202,35 +200,86 @@ check1(1,2.8,"bhanu",3+1j)'''  #ouput would be printed till int and float and do
     railway_ticket()'''
 
 
+#kwargs(**):
+
+'''def Details(**a):
+    print(a)
+    print(type(a))
+Details()                  #{}  class dict
+d={"idno":[20,40,60],
+   "names":["Bhanu","Rekha","Deeksha"],
+   "status":["p","a","p"]}
+Details(**d)'''
+
+'''def Details(**a):
+    print(a)
+    print(type(a))
+    for i in  a:          #idnos names status
+        print(i)         
+    for i in a:           #[20,40,60]  ["bhanu","rekha","deeksha"]  [p ,a, p]
+        print(a[i])
+    for i in a:
+        print(a,a[i])
+    for i in a.keys():       #dictionary methods
+        print(i)
+    for i in a.values():      #dictionary methods
+        print(i)
+    for i in a.items():          #dictionary methods
+        print(i)
+Details()
+d={"idno":[20,40,60],
+   "names":["Bhanu","Rekha","Deeksha"],
+   "status":["p","a","p"]}
+Details(**d)'''
+
+#* and ** usage task:
+'''def final(*a,**b):
+    print(a)
+    print(b)
+    d=2
+    print(type(a))
+    print(type(b))
+    for i in a:
+        d=d+i
+        print(d)
+    for i,j in b.items():
+        print("Keys are",i)
+        print("Values are",j)
+final()
+d=(2,6,7,9.1,3.4)
+final(*d)
+e={"idno":[20,40,60],
+   "names":["Bhanu","Rekha","Deeksha"],
+   "status":["p","a","p"]}
+final(**e)
+final(*d,**e)'''
 
 
+#max(),min(),sum()
+
+'''print(max(3,1,5,8,12,19,45))
 
 
+print(min(0,45,12,37,82,66))
 
+a=2,3,4,5,6,7,8
+print(sum(a))'''
 
+#Marks analysis report:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'''students=int(input("enter number of students"))
+marks=[]
+for i in range(1,students+1):
+    mark=int(input(f"enter student {i} marks"))
+    b=marks.append(mark)
+for i in marks:
+    print(i)
+print("Marks Analysis Report")
+print("total students",students)
+print("highest marks",max(marks))
+print("lowest marks",min(marks))
+print("total marks",sum(marks))
+print("average is",sum(marks)/students)'''
 
 
 
